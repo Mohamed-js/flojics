@@ -1,12 +1,116 @@
 [
-  { "id": 0, "name": "The Luxury Collection Hotels & Resorts", "address": "USA, California", "rating": 5},
-  {  "id": 1 ,"name": "Marriott", "address": "USA, California", "rating": 4},
-  { "id": 3, "name": "Regency Hotel" , "address": "USA, California", "rating": 4.5},
-  { "id": 4, "name": "Hilton Walt Disney World", "address": "USA, California", "rating": 3 },
-  { "id": 5, "name": "Disney’s Wilderness Lodge", "address": "USA, California", "rating": 2.5 },
-  { "id": 6, "name": "Disney’s Yacht Club Resort", "address": "USA, California", "rating": 4.5 },
-  { "id": 7, "name": "Mandarin Oriental", "address": "USA, California", "rating": 4 },
-  { "id": 8, "name": "Four Seasons Hotel", "address": "USA, California", "rating": 5 },
-  { "id": 9, "name": "Residence Inn by Marriott", "address": "USA, California", "rating": 5 },
-  { "id": 10, "name": "El Rancho Casino", "address": "USA, California", "rating": 3.5}
+  {
+    "id": 0,
+    "name": "The Luxury Collection Hotels & Resorts",
+    "address": "USA, California",
+    "rating": 5
+  },
+  {
+    "id": 1,
+    "name": "Marriott",
+    "address": "USA, California",
+    "rating": 4
+  },
+  {
+    "id": 3,
+    "name": "Regency Hotel",
+    "address": "USA, California",
+    "rating": 4.5
+  },
+  {
+    "id": 4,
+    "name": "Hilton Walt Disney World",
+    "address": "USA, California",
+    "rating": 3
+  },
+  {
+    "id": 5,
+    "name": "Disney’s Wilderness Lodge",
+    "address": "USA, California",
+    "rating": 2.5
+  },
+  {
+    "id": 6,
+    "name": "Disney’s Yacht Club Resort",
+    "address": "USA, California",
+    "rating": 4.5
+  },
+  {
+    "id": 7,
+    "name": "Mandarin Oriental",
+    "address": "USA, California",
+    "rating": 4
+  },
+  {
+    "id": 8,
+    "name": "Four Seasons Hotel",
+    "address": "USA, California",
+    "rating": 5
+  },
+  {
+    "id": 9,
+    "name": "Residence Inn by Marriott",
+    "address": "USA, California",
+    "rating": 5
+  },
+  {
+    "id": 10,
+    "name": "El Rancho Casino",
+    "address": "USA, California",
+    "rating": 3.5
+  },
+  {
+    "id": 11,
+    "name": "Marriott",
+    "address": "USA, California",
+    "rating": 4
+  },
+  {
+    "id": 13,
+    "name": "Regency Hotel",
+    "address": "USA, California",
+    "rating": 4.5
+  },
+  {
+    "id": 14,
+    "name": "Hilton Walt Disney World",
+    "address": "USA, California",
+    "rating": 3
+  },
+  {
+    "id": 15,
+    "name": "Disney’s Wilderness Lodge",
+    "address": "USA, California",
+    "rating": 2.5
+  },
+  {
+    "id": 16,
+    "name": "Disney’s Yacht Club Resort",
+    "address": "USA, California",
+    "rating": 4.5
+  },
+  {
+    "id": 17,
+    "name": "Mandarin Oriental",
+    "address": "USA, California",
+    "rating": 4
+  },
+  {
+    "id": 18,
+    "name": "Four Seasons Hotel",
+    "address": "USA, California",
+    "rating": 5
+  },
+  {
+    "id": 19,
+    "name": "Residence Inn by Marriott",
+    "address": "USA, California",
+    "rating": 5
+  },
+  {
+    "id": 20,
+    "name": "El Rancho Casino",
+    "address": "USA, California",
+    "rating": 3.5
+  }
 ]

@@ -77,12 +77,20 @@ export const removeBooking = async (hotelId, userId) => {
 
 export const signup = async (userData) => {
   try {
-    const response = await fetch(`${BASEURL}/users`, {
+    const response = await fetch(`${BASEURL}/users?email=${userData.email}`, {
+      headers: HEADERS,
+    });
+    const userExists = await response.json();
+    console.log(userExists);
+    if (userExists[0]) {
+      return "User already exists.";
+    }
+    const response2 = await fetch(`${BASEURL}/users`, {
       headers: HEADERS,
       method: "POST",
       body: JSON.stringify(userData),
     });
-    const user = await response.json();
+    const user = await response2.json();
     return user;
   } catch (error) {
     console.error("Error signing up:", error);

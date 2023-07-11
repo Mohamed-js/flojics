@@ -1,18 +1,14 @@
 <script setup>
-import { RouterLink } from 'vue-router'
-import { ref } from 'vue';
 import { useUserStore } from '@/stores/user'
 import router from '../router';
 import { login } from '@/helpers.js';
-
+import AuthForm from '../components/AuthForm.vue';
 
 const userStore = useUserStore();
-const email = ref('');
-const password = ref('');
 
-const handleSubmit = async () => {
+const handleSubmit = async (email, password) => {
   try {
-    const user = await login(email.value, password.value);
+    const user = await login(email, password);
     if (!user) {
       return alert("Wrong credentials...");
     }
@@ -26,29 +22,6 @@ const handleSubmit = async () => {
 </script>
 
 <template>
-  <div class="login flex flex-col items-center justify-center mt-20 shadow-md bg-white p-5 rounded-md">
-    <h1 class="font-bold text-lg text-green-600">Welcome Back To</h1>
-    <h2 class="text-sm">Your Gate To The World Hotels!</h2>
-    <br>
-    <form class="flex flex-col items-center justify-center w-full" @submit.prevent="handleSubmit">
-      <input type="email" placeholder="Email" v-model="email" required>
-      <input type="password" placeholder="Password" minlength="6" v-model="password" required>
-      <button class="bg-green-600 text-white p-1 px-3 rounded-sm">Login</button>
-    </form>
-    <br>
-    <RouterLink to="/signup" class="self-start text-sm">Don't have an account?</RouterLink>
-  </div>
+  <AuthForm header="Welcome Back To" tagline="Your Gate To The World Hotels!" submitText="Login"
+    :handleSubmit="handleSubmit" referalText="Don't have an account?" referalLink="/signup" />
 </template>
-
-<style scoped>
-input {
-  margin-bottom: 1rem;
-  width: 100%;
-  padding: .5rem;
-  border-bottom: 1px solid lightgray;
-}
-
-label {
-  display: block;
-}
-</style>

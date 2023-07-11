@@ -28,17 +28,17 @@ const handleSubmit = async () => {
         hotel_id: props.hotelId,
     })
     if (booking.id) {
-        return popup.close();
+        popup.close();
+        return popup.toggleAlert();
     }
     alert("Sorry, an error happened.")
 }
 </script>
 
 <template>
-    <div class="form p-3 py-5 rounded-md bg-white flex flex-col items-center justify-center">
+    <div class="form p-3 py-5 rounded-md bg-white flex flex-col items-center justify-center animate-appear-slow">
         <UserIcon class="m-5 text-green-600" />
         <form class="w-full" @submit.prevent="handleSubmit">
-            {{ currentHotel }}
             <label for="name">Name</label>
             <input v-model="formData.name" name="name" placeholder="eg, Mohamed Atef" required />
             <label for="phone">Phone</label>

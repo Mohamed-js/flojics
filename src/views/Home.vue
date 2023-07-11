@@ -7,6 +7,7 @@ import { usePopupStore } from '@/stores/popup'
 import { getHotels } from '../helpers'
 import HotelCards from '../components/HotelCards.vue';
 
+
 const popup = usePopupStore();
 const hotels = ref([]);
 const hotelId = ref(null);
@@ -33,7 +34,8 @@ onMounted(() => {
 
 <template>
   <div class="home min-h-screen">
-    <HotelCards :hotels="hotels" :action="handleBookingForm" actionText="Book" />
+
+    <HotelCards :hotels="hotels" :action="handleBookingForm" actionText="Book" placeholder="Loading..." />
 
     <Popup v-if="popup.isPopupShowing">
       <Alert message="Thank you for booking with us." v-if="popup.isAlertShowing" />

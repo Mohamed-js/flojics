@@ -13,6 +13,8 @@ async function getHotels() {
       const bookingIds = parameterizeIds(userBookings);
       const bookingsHotels = await getBookingsHotels(bookingIds);
       hotels.value = bookingsHotels;
+    } else {
+      hotels.value = []
     }
   } catch (error) {
     console.error('Error retrieving hotels:', error);
@@ -35,6 +37,7 @@ onMounted(() => {
 
 <template>
   <div class="bookings">
-    <HotelCards :hotels="hotels" :action="handleCancelBooking" actionText="Cancel" />
+    <HotelCards :hotels="hotels" :action="handleCancelBooking" actionText="Cancel"
+      placeholder="You don't have any active bookings now..." />
   </div>
 </template>

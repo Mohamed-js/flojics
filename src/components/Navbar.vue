@@ -16,7 +16,10 @@ const handleLogout = () => {
     <header class="fixed left-0 right-0 top-0 bg-white z-10 shadow-sm">
         <nav class="flex py-5 px-1 sm:px-3 items-center justify-between">
             <div class="flex items-center gap-2">
-                <LogoIcon class="text-green-600" />
+
+                <RouterLink to="/">
+                    <LogoIcon class="text-green-600" />
+                </RouterLink>
                 <RouterLink to="/">Home</RouterLink>
                 <RouterLink to="/bookings">My Bookings</RouterLink>
             </div>

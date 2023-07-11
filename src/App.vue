@@ -10,7 +10,7 @@ handleAuthenticationRedirection(useUserStore, router)
 
 <template>
   <Navbar />
-  <main class="px-2 sm:px-3 pt-20 bg-slate-50">
+  <main class="px-2 sm:px-3 pt-20">
     <RouterView />
   </main>
 </template>

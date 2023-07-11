@@ -4,7 +4,7 @@ const props = defineProps(['message'])
 </script>
 
 <template>
-    <div class="bg-white flex flex-col items-center justify-center p-3 px-4 rounded-md alert">
+    <div class="bg-white flex flex-col items-center justify-center p-3 px-4 rounded-md alert animate-appear-slow">
         <CheckIcon />
         <p class="mt-2 text-center">{{ message }}</p>
     </div>
