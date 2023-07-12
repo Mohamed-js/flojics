@@ -13,16 +13,28 @@ It uses a very simple - dummy - authentication system that allows you to login a
 
 ## Project Setup Steps
 
-1- Setup all the project dependencies:
+1- Clone the project onto your machine:
+
+```sh
+git clone https://github.com/Mohamed-js/flojics.git
+```
+
+2- Enter the project folder by:
+
+```sh
+cd flojics
+```
+
+3- Setup all the project dependencies:
 
 ```sh
 npm install
 ```
 
-2- Run the dev environment:
+4- Run the dev environment:
 
 ```sh
 npm run dev
 ```
 
-3- Enjoy using the app and don't forget to star the project.
+5- Enjoy using the app and don't forget to star the project.
