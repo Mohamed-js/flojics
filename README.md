@@ -1,29 +1,28 @@
-# flojics-test
+# Flojics-Hotels
 
-This template should help get you started developing with Vue 3 in Vite.
+This is an Hotels booking single-page application. It lists all the available Hotels, allows you to book an hotel - or multiple ones -, and you can cancel your bookings to.
+It uses a very simple - dummy - authentication system that allows you to login and signup onto your machine using Json Server.
 
-## Recommended IDE Setup
+## Tech Stack
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+- Vue 3
+- Pinia
+- ANIMXYZ animation library
+- Tailwind CSS
+- Simple Json Server
 
-## Customize configuration
+## Project Setup Steps
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
+1- Setup all the project dependencies:
 
 ```sh
 npm install
 ```
 
-### Compile and Hot-Reload for Development
+2- Run the dev environment:
 
 ```sh
 npm run dev
 ```
 
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
+3- Enjoy using the app and don't forget to star the project.
