@@ -1,1 +1,7 @@
-[{"email":"atefhamosa@gmail.com","password":"123123","id":1},{"email":"atef@gmail.com","password":"123123","id":2},{"email":"atefhamosa@gmail.com","password":"123123","id":3},{"email":"koko@gmail.com","password":"123123","id":4},{"email":"gogo@gmail.com","password":"123123","id":5},{"email":"gogo@gmail.com2","password":"123123","id":6}]
+[
+    {
+        "email": "atefhamosa@gmail.com",
+        "password": "123123",
+        "id": 1
+    }
+]
