@@ -37,4 +37,10 @@ npm install
 npm run dev
 ```
 
-5- Enjoy using the app and don't forget to star the project.
+5- Visit the url:
+
+```sh
+http://127.0.0.1:5173/
+```
+
+6- Enjoy using the app and don't forget to star the project.
