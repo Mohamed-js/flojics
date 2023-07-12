@@ -1,6 +1,5 @@
 <script setup>
 import { RouterLink } from 'vue-router'
-import { useUserStore } from '@/stores/user'
 import { ref } from 'vue';
 const props = defineProps({
     header: {

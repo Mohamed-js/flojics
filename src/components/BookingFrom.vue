@@ -1,5 +1,5 @@
 <script setup>
-import { defineProps, reactive } from 'vue';
+import { reactive } from 'vue';
 import UserIcon from './icons/UserIcon.vue'
 import { usePopupStore } from '@/stores/popup'
 import { addBooking } from '@/helpers'

@@ -1,6 +1,5 @@
 <script setup>
 import HotelCard from './HotelCard.vue';
-import { defineProps } from 'vue';
 import { XyzTransitionGroup } from "@animxyz/vue3"
 
 const props = defineProps({
